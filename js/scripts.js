@@ -27,11 +27,10 @@ $(document).ready(function(){
     console.log(iceCreamFlavors);
   });
 
-  var ids = ["h1", "p", "img"];
+  var ids = ["h1", "p", "img", "li", "input", "label"];
   ids.forEach(function(id){
-    jQuery(id).click(function() {
+    $(id).click(function() {
       alert("This is a " + id);
-      alert("hello");
     });
   })
   // jQuery("h1").click(function() {
